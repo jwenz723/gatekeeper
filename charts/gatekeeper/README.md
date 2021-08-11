@@ -103,6 +103,7 @@ _See [Exempting Namespaces](https://open-policy-agent.github.io/gatekeeper/websi
 | podCountLimit                                | The maximum number of Gatekeeper pods to run                                           | `100`                                                                     |
 | secretAnnotations                            | The annotations to add to the Gatekeeper secrets                                       | `{}`                                                                      |
 | pdb.controllerManager.minAvailable           | The number of controller manager pods that must still be available after an eviction   | `1`                                                                       |
+| service.annotations                          | The annotations to add to the Service                                                  | `{}`                                                               |
 | service.type                                 | Service type                                                                           | `ClusterIP`                                                               |
 | service.loadBalancerIP                       | The IP address of LoadBalancer service                                                 | ``                                                                        |
 
